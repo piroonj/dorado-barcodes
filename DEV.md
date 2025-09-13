@@ -21,14 +21,14 @@ $ apt-get update && apt-get install -y --no-install-recommends \
         wget \
         zlib1g-dev \
         curl \
-        git \
+        git vim less \
         ca-certificates \
         build-essential \
         libssl-dev \
         autoconf \
         automake
-$ apt install gcc-9 g++-9 --no-install-recommends
-$ update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9
+$ apt install -y gcc-10 g++-10 --no-install-recommends
+$ update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 60  --slave /usr/bin/g++ g++ /usr/bin/g++-10
 ```
 
 ### Pre-commit
